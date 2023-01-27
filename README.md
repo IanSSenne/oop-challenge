@@ -5,6 +5,8 @@
 
 A command line application that will prompt you for various team members and information and then output an html file showcasing the input information.
 
+[Demo](https://www.youtube.com/watch?v=HmwEY8sV_GA)
+
 ![image](https://user-images.githubusercontent.com/48780301/215023117-54333f91-fa03-4b69-859c-fd4c8b54017a.png)
 
 ![image](https://user-images.githubusercontent.com/48780301/215023775-5e7e03ab-5393-48ab-b80e-4288dd61eadc.png)
