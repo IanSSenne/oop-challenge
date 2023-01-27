@@ -5,6 +5,10 @@
 
 A command line application that will prompt you for various team members and information and then output an html file showcasing the input information.
 
+![image](https://user-images.githubusercontent.com/48780301/215023117-54333f91-fa03-4b69-859c-fd4c8b54017a.png)
+
+![image](https://user-images.githubusercontent.com/48780301/215023775-5e7e03ab-5393-48ab-b80e-4288dd61eadc.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -21,6 +25,8 @@ A command line application that will prompt you for various team members and inf
 ## Usage
 
 you can install the dependencies and then run the index file to be prompted for information, after filling the questions out you will be provided a generated readme file
+
+`node index.js`
 
 ## Contributing
 
