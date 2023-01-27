@@ -37,10 +37,10 @@ Manager.prompt()
 					finished = true;
 					break;
 			}
-			let html = indexFile.evaluate({
-				cards: team.map((employee) => cards[employee.getRole()].evaluate(employee)).join("\n")
-			})
-			fs.writeFile("./dist/index.html", html);
-			fs.copyFile(path.resolve(__dirname, "./src/template/main.css"), path.resolve(__dirname, "./dist/main.css"))
 		}
+		let html = indexFile.evaluate({
+			cards: team.map((employee) => cards[employee.getRole()].evaluate(employee)).join("\n")
+		})
+		fs.writeFile("./dist/index.html", html);
+		fs.copyFile(path.resolve(__dirname, "./src/template/main.css"), path.resolve(__dirname, "./dist/main.css"))
 	});
